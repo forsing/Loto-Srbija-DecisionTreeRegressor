@@ -1,0 +1,5 @@
+
+--- 28.05.2026_15.00.49 (seed=39, N=4622) ---
+DTR -> [8, 13, 16, 23, 31, 34, 37]  (suma=162, neparnih=4/7, niskih(≤19)=3/7, raspon=29)
+back-test: hits/7=1.480, hit%=21.1, AUC=0.506, LRAP=0.254
+ukupno_vreme=0:00:00  (0.3 s)
