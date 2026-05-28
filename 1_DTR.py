@@ -52,8 +52,8 @@ random.seed(SEED)
 # ============================================================
 # Konfiguracija
 # ============================================================
-CSV_PATH    = "/Users/4c/Desktop/GHQ/data/loto7_4622_k42.csv"
-OUT_TXT     = "/Users/4c/Desktop/GHQ/KvantniRegresor/1_DTR_predikcija.txt"
+CSV_PATH    = "/loto7_4622_k42.csv"
+OUT_TXT     = "/1_DTR_predikcija.txt"
 N_MIN, N_MAX = 1, 39
 K           = 7
 LAG         = 5
@@ -288,7 +288,7 @@ print()
    DTR       1.480   21.1%   0.506   0.254
    (slučajan baseline ≈ 1.256 hits/7)
 
-🎯 DTR sledeće kolo -> [8, 13, 16, 23, 31, 34, 37]
+🎯 DTR sledeće kolo -> [8, x, 16, y, 31, z, 37]
 
 ✅ DTR validan (suma=162, neparnih=4/7, niskih(≤19)=3/7, raspon=29).
 📝 Snimljeno u: /1_DTR_predikcija.txt
